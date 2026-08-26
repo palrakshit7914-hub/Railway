@@ -1,0 +1,13 @@
+[
+  {
+    "request_id": "TDMS-301",
+    "department": "TRD",
+    "section_id": "NDLS-GZB-L1",
+    "start_km": 11.0,
+    "end_km": 15.0,
+    "work_type": "OHE Overhead Wire Cantilever Adjustment",
+    "requested_duration_mins": 120,
+    "urgency": "HIGH",
+    "preferred_start_time": "2026-08-27T08:15:00Z"
+  }
+]
