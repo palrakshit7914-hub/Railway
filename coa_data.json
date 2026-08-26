@@ -1,0 +1,18 @@
+[
+  {
+    "train_number": "12301",
+    "train_name": "Howrah Rajdhani Express",
+    "section_id": "NDLS-GZB-L1",
+    "expected_entry_time": "2026-08-27T06:30:00Z",
+    "expected_exit_time": "2026-08-27T07:15:00Z",
+    "priority": 1
+  },
+  {
+    "train_number": "64401",
+    "train_name": "Ghaziabad EMU Local",
+    "section_id": "NDLS-GZB-L1",
+    "expected_entry_time": "2026-08-27T11:30:00Z",
+    "expected_exit_time": "2026-08-27T12:15:00Z",
+    "priority": 3
+  }
+]
