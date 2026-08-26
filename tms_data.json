@@ -1,0 +1,24 @@
+[
+  {
+    "request_id": "TMS-101",
+    "department": "Engineering",
+    "section_id": "NDLS-GZB-L1",
+    "start_km": 10.0,
+    "end_km": 16.0,
+    "work_type": "Deep Track Screening & Ballast Cleaning",
+    "requested_duration_mins": 150,
+    "urgency": "HIGH",
+    "preferred_start_time": "2026-08-27T08:00:00Z"
+  },
+  {
+    "request_id": "TMS-102",
+    "department": "Engineering",
+    "section_id": "NDLS-GZB-L1",
+    "start_km": 40.0,
+    "end_km": 42.0,
+    "work_type": "Sleeper Replacement",
+    "requested_duration_mins": 90,
+    "urgency": "LOW",
+    "preferred_start_time": "2026-08-27T14:00:00Z"
+  }
+]
