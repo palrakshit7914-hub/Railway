@@ -1,0 +1,13 @@
+[
+  {
+    "request_id": "SMMS-201",
+    "department": "S&T",
+    "section_id": "NDLS-GZB-L1",
+    "start_km": 12.0,
+    "end_km": 14.5,
+    "work_type": "Point Machine Repair & Signal Testing",
+    "requested_duration_mins": 100,
+    "urgency": "MEDIUM",
+    "preferred_start_time": "2026-08-27T08:30:00Z"
+  }
+]
