@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from engine import generate_optimized_schedule, load_all_department_requests
+import numpy as np
+from rl_engine import train_rl_agent
 
 app = FastAPI(
     title="Indian Railways AI Block Optimizer API",
@@ -37,3 +39,9 @@ def get_raw_requests():
 def get_optimized_schedule():
     """Runs AI engine logic and returns merged joint blocks + efficiency metrics."""
     return generate_optimized_schedule()
+
+
+@app.get("/api/requests/rl-optimized")
+def get_rl_schedule():
+    """Triggers the Reinforcement Learning agent and returns trained policies."""
+    return train_rl_agent(episodes=500)
